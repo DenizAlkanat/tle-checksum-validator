@@ -59,3 +59,4 @@ print(f"Checksum Geçerli mi: {gecerli_mi}")
 ~~~
 
 ### Geliştirici Notları
+Denemeler
