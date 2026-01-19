@@ -57,3 +57,5 @@ gecerli_mi = verify_checksum(line)
 print(f"Checksum Geçerli mi: {gecerli_mi}")
 
 ~~~
+
+### Geliştirici Notları
