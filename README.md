@@ -29,6 +29,7 @@ print(f"Checksum Valid: {is_valid}")
 
 ---
 
+
 # TLE Checksum Doğrulayıcı (Türkçe)
 
 Bu repository, NORAD Two-Line Element (TLE) formatında kullanılan checksum
@@ -50,9 +51,10 @@ Veya doğrulama fonksiyonunu kendi projenize dahil edebilirsiniz:
 ~~~python
 from tle_checksum import verify_checksum
 
-# Örnek TLE 1. Satır
+# Örnek TLE 1. Satır 
 line = "1 25544U 98067A   23018.58912361  .00000576  00000+0  57894-3 0  9993"
 gecerli_mi = verify_checksum(line)
 
 print(f"Checksum Geçerli mi: {gecerli_mi}")
-~~~
+
+~~~V0
