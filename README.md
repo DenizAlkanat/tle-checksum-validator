@@ -29,7 +29,6 @@ print(f"Checksum Valid: {is_valid}")
 
 ---
 
-
 # TLE Checksum Doğrulayıcı (Türkçe)
 
 Bu repository, NORAD Two-Line Element (TLE) formatında kullanılan checksum
@@ -57,4 +56,4 @@ gecerli_mi = verify_checksum(line)
 
 print(f"Checksum Geçerli mi: {gecerli_mi}")
 
-~~~V0
+~~~
